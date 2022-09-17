@@ -1,0 +1,26 @@
+.row {
+    background-color: #CFD2CF;
+    padding-top: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .8em;
+}
+.container-social {
+    display: none;
+}
+.container-social img {
+    width: 2em;
+    margin: 10px;
+}
+
+@media (max-width: 500px) {
+    .container-social {
+        display: block;
+    }
+
+}

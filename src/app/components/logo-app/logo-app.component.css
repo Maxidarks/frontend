@@ -1,0 +1,36 @@
+div.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #A2B5BB;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    z-index: 1;
+}
+div.container-logo img{
+    width: 5em;
+    margin: 5px;
+}
+div.container-social img{
+    width: 2.7em;
+    margin: 10px;
+}
+.btn {
+    background-color: black;
+    color: #CFD2CF;
+    margin: 5px;
+}
+
+
+
+/*responsive movile*/
+@media (max-width: 500px) {
+    .container-social {
+        display: none;
+    }
+    #logo {
+        width: 4em;
+    }
+}

@@ -1,0 +1,21 @@
+.row {
+    background-color: #F5EDDC;
+    padding: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+
+@media (max-width:767px) {
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+}
